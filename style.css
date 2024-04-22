@@ -1,0 +1,14 @@
+.nav{
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(105, 33, 60);  
+}
+#imageone{
+    height: 500px;
+}
