@@ -1,14 +1,110 @@
-.nav{
-    border: 2px solid black;
-    margin: 0px;
-    padding: 0px;
-    
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
+
+/* Global styles */
 body {
-    margin: 0px;
-    padding: 0px;
-    background: rgb(105, 33, 60);  
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
 }
-#imageone{
-    height: 500px;
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles */
+.nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/* About Me section styles */
+.aboutMe {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.aboutMe p {
+    font-size: 16px;
+}
+
+/* Projects section styles */
+.projects {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.projects img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content section styles */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+iframe {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
