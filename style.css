@@ -108,3 +108,50 @@ iframe {
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Media Queries for responsiveness */
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .nav {
+        padding: 10px;
+    }
+
+    .nav h1 {
+        font-size: 20px;
+    }
+
+    .nav-button {
+        padding: 8px 15px;
+    }
+
+    .aboutMe,
+    .projects,
+    .content {
+        padding: 10px;
+    }
+
+    .aboutMe h2,
+    .projects h2,
+    .content h2 {
+        font-size: 20px;
+    }
+}
+
+/* Medium screens (769px - 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Large screens (993px and above) */
+@media screen and (min-width: 993px) {
+    .container {
+        max-width: 960px;
+    }
+}
